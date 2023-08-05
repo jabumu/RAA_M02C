@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_M02C</Text>
+    <Description>Some description for RAA_M02C</Description>
+    <Assembly>RAA_M02C.dll</Assembly>
+    <FullClassName>RAA_M02C.Module02Challenge</FullClassName>
+    <ClientId>{E6D286E4-9997-4BE1-BE85-B6F465D2752C}</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_M02C</Name>
+    <Assembly>RAA_M02C.dll</Assembly>
+    <FullClassName>RAA_M02C.App</FullClassName>
+    <ClientId>{86449D30-D71B-428F-98F3-72EE9315A6B5}</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
